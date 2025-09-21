@@ -27,7 +27,7 @@ a {
 }
 
 a:hover {
-  color:(#3498db) !important;
+  color:(#00c604) !important;
 }
 
 ul {
@@ -71,43 +71,43 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--white-color);
+  background: (#ffffff);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--primary-color);
+  background: (#00c604);
 } 
 
 h1{
   font-size:4.375rem;
   font-weight: 900;
   margin-bottom:3rem;
-  font-family: var(--heading-font);
-  color:var(--text-white);
+  font-family: (sans-serif);
+  color:(#fff);
   text-transform: capitalize;
 }
 h2{
   font-size:2.25rem;
   font-weight: 700;
   line-height: 1.3; 
-  font-family: var(--heading-font);
-  color:var(--text-white);
+  font-family: ("lobster Two");
+  color: (#fff);
   text-transform: capitalize;
 }
 h4{
   font-size:1.125rem;
   font-weight: 800;
   margin-bottom:0.5rem;
-  font-family: var(--heading-font);
-  color:var(--text-secondry);
+  font-family: ("Lobster Two");
+  color: (#151b20);
   text-transform: capitalize;
 }
 h5{
   font-size:1.125rem;
   font-weight: 700;
   margin-bottom:0.5rem;
-  font-family: var(--heading-font);
-  color:var(--text-primary);
+  font-family: ("Lobster Two");
+  color: (#00c604);
   text-transform: capitalize;
 }
 p{
@@ -381,6 +381,7 @@ p{
   padding:0 0.4rem;
 
 }
+
 
 
 
