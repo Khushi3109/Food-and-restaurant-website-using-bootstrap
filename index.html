@@ -72,32 +72,6 @@
   </section>
 
   <!-- Counter Section -->
- <script>
-function counter(id, start, end, duration) {
-  let obj = document.getElementById(id);
-  let startTime = null;
-
-  function update(timestamp) {
-    if (!startTime) startTime = timestamp;
-    let elapsed = timestamp - startTime;
-    let progress = elapsed / duration;
-    if (progress > 1) progress = 1;
-    let value = Math.floor(start + (end - start) * progress);
-    obj.textContent = value;
-    if (progress < 1) {
-      requestAnimationFrame(update);
-    }
-  }
-
-  requestAnimationFrame(update);
-}
-
-// All counters – sab 5 sec me stop
-counter("count1", 0, 1287, 5000);
-counter("count2", 0, 5786, 5000);
-counter("count3", 0, 1440, 5000);
-counter("count4", 0, 7110, 5000);
-</script>
    <section id="counter">
     <div class="counter-section">
       <div class="container">
@@ -284,7 +258,7 @@ counter("count4", 0, 7110, 5000);
           </div>
           <div class="col-lg-4 col-sm-6 mb-4">
             <div class="card">
-              <img src="./images/team/img-1.webp" class="img-fluid"/>
+              <img src="../images/team/img-1.webp" class="img-fluid"/>
               <div class="team-caption py-4 px-2">
                 <h4>John Doe</h4>
                 <h6>Sous-Chef</h6>
@@ -302,7 +276,7 @@ counter("count4", 0, 7110, 5000);
           </div>
           <div class="col-lg-4 col-sm-6 mb-4">
             <div class="card">
-              <img src="./images/team/img-2.webp" class="img-fluid"/>
+              <img src="../images/team/img-2.webp" class="img-fluid"/>
               <div class="team-caption py-4 px-2">
                 <h4>Sharon Needles</h4>
                 <h6>Sous-Chef</h6>
@@ -320,9 +294,9 @@ counter("count4", 0, 7110, 5000);
           </div>
           <div class="col-lg-4 col-sm-6 mb-4">
             <div class="card">
-              <img src="./images/team/img-3.webp" class="img-fluid"/>
+              <img src="../images/team/img-3.webp" class="img-fluid"/>
               <div class="team-caption py-4 px-2">
-                <h4>John Doe</h4>
+                <h4>John Dove</h4>
                 <h6>Sous-Chef</h6>
                 <p>
                   Viverra lorem ipsuet elit liquam erat volut pat phas ellus ac sodales.
