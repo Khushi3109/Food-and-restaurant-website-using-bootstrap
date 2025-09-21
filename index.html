@@ -73,31 +73,30 @@
 
   <!-- Counter Section -->
  <script>
-function counter(id, end, duration) {
+function counter(id, start, end, duration) {
   let obj = document.getElementById(id);
-  let start = 0;
-  let fps = 60; 
-  let totalFrames = duration / (1000 / fps);
-  let frame = 0;
+  let startTime = null;
 
-  let timer = setInterval(() => {
-    frame++;
-    let progress = frame / totalFrames;
-    let value = Math.floor(end * progress);
-
-    if (frame >= totalFrames) {
-      value = end;
-      clearInterval(timer);
-    }
+  function update(timestamp) {
+    if (!startTime) startTime = timestamp;
+    let elapsed = timestamp - startTime;
+    let progress = elapsed / duration;
+    if (progress > 1) progress = 1;
+    let value = Math.floor(start + (end - start) * progress);
     obj.textContent = value;
-  }, 1000 / fps);
+    if (progress < 1) {
+      requestAnimationFrame(update);
+    }
+  }
+
+  requestAnimationFrame(update);
 }
 
-// Calls – sab ek hi time (5 sec) me stop honge
-counter("count1", 1287, 5000);
-counter("count2", 5786, 5000);
-counter("count3", 1440, 5000);
-counter("count4", 7110, 5000);
+// All counters – sab 5 sec me stop
+counter("count1", 0, 1287, 5000);
+counter("count2", 0, 5786, 5000);
+counter("count3", 0, 1440, 5000);
+counter("count4", 0, 7110, 5000);
 </script>
    <section id="counter">
     <div class="counter-section">
