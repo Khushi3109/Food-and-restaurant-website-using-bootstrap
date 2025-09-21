@@ -72,33 +72,32 @@
   </section>
 
   <!-- Counter Section -->
-<script>
-function counter(id, start, end, duration) {
+ <script>
+function counter(id, end, duration) {
   let obj = document.getElementById(id);
-  let range = end - start;
-  let fps = 60;
+  let start = 0;
+  let fps = 60; 
   let totalFrames = duration / (1000 / fps);
   let frame = 0;
 
   let timer = setInterval(() => {
     frame++;
     let progress = frame / totalFrames;
-    let value = Math.floor(start + range * progress);
+    let value = Math.floor(end * progress);
 
     if (frame >= totalFrames) {
       value = end;
       clearInterval(timer);
     }
-
     obj.textContent = value;
   }, 1000 / fps);
 }
 
-// Yaha par calls likhni hain
-counter("count1", 0, 1287, 10000);
-counter("count2", 0, 5786, 10000);
-counter("count3", 0, 1440, 10000);
-counter("count4", 0, 7110, 10000);
+// Calls – sab ek hi time (5 sec) me stop honge
+counter("count1", 1287, 5000);
+counter("count2", 5786, 5000);
+counter("count3", 1440, 5000);
+counter("count4", 7110, 5000);
 </script>
    <section id="counter">
     <div class="counter-section">
