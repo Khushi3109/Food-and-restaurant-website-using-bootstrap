@@ -29,7 +29,7 @@
   /* Top-Banner & Backgrounds */
   .top-banner{
     padding:6.375rem 0 4.375rem;
-    background: url("./images/bg/bg-1.jpg") no-repeat center center;
+    background-image: url("./images/bg/bg-1.jpg") no-repeat center center;
     background-size: cover;
   }
   .story-section{
