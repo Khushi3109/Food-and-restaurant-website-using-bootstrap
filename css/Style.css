@@ -248,7 +248,7 @@ p{
   text-align: center;
 }
 
-/* Explore Foos Section */
+/* Explore Food Section */
 .explore-food{
   background-color:(#3498db);
 }
@@ -314,7 +314,7 @@ p{
   background-color:var(--secondry-color);
 }
 .team .card{
-  background-color: var(--black-color);
+  background-color: (#000000);
   border-radius: 0.625rem;
   border:0.25rem solid var(--primary-color);
   text-align: center;
@@ -381,6 +381,7 @@ p{
   padding:0 0.4rem;
 
 }
+
 
 
 
