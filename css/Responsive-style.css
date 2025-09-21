@@ -20,7 +20,7 @@
     background-color:(#000000);
   }
   .navigation-wrap .navbar-toggler{
-    color:var(--white-color);
+    color: (#ffffff);
   }
   .navigation-wrap .nav-link{
     line-height: 1.875rem;
@@ -74,13 +74,13 @@
   .story-section{
     height:auto;
     padding:3rem 0;
-    background: url("../images/bg/bg-2.jpg") no-repeat center center;
+    background-image: url("./images/bg/bg-2.jpg") no-repeat center center;
     background-size: cover;
   }
 
   /* Top-Banner */
   .top-banner{
-    background: url("../images/bg/bg-1.jpg") no-repeat center center;
+    background-image: url("./images/bg/bg-1.jpg") no-repeat center center;
     background-size: cover;
   }
 
