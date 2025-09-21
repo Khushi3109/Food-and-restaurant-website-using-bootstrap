@@ -35,20 +35,20 @@
   .story-section{
     height:auto;
     padding:3rem 0;
-    background: url("./images/bg/bg-2.jpg") no-repeat center center;
+    background-image: url("./images/bg/bg-2.jpg") no-repeat center center;
     background-size: cover;
   }
   .book-food{
-    background: url("./images/bg/bg-3.jpg") no-repeat center center;
+    background-image: url("./images/bg/bg-3.jpg") no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
   }
   .testimonial-section{
-    background: url("./images/bg/bg-4.jpg") no-repeat center top;
+    background-image: url("./images/bg/bg-4.jpg") no-repeat center top;
     background-size: cover;
   }
   .download-app{
-    background: url("./images/bg/bg-5.jpg") no-repeat center center;
+    background-image: url("./images/bg/bg-5.jpg") no-repeat center center;
     background-size: cover;
   }
 
