@@ -1,5 +1,5 @@
 @media (max-width:991px){
-  /* custom CSS */
+  /* Custom CSS */
   h1{
     font-size:2.1875rem;
   }
@@ -26,9 +26,30 @@
     line-height: 1.875rem;
   }
 
-  /* Top-Banner */
+  /* Top-Banner & Backgrounds */
   .top-banner{
     padding:6.375rem 0 4.375rem;
+    background: url("../images/bg/bg-1.jpg") no-repeat center center;
+    background-size: cover;
+  }
+  .story-section{
+    height:auto;
+    padding:3rem 0;
+    background: url("../images/bg/bg-2.jpg") no-repeat center center;
+    background-size: cover;
+  }
+  .book-food{
+    background: url("../images/bg/bg-3.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .testimonial-section{
+    background: url("../images/bg/bg-4.jpg") no-repeat center top;
+    background-size: cover;
+  }
+  .download-app{
+    background: url("../images/bg/bg-5.jpg") no-repeat center center;
+    background-size: cover;
   }
 
   /* Testimonial */
@@ -53,13 +74,20 @@
   .story-section{
     height:auto;
     padding:3rem 0;
+    background: url("../images/bg/bg-2.jpg") no-repeat center center;
+    background-size: cover;
+  }
+
+  /* Top-Banner */
+  .top-banner{
+    background: url("../images/bg/bg-1.jpg") no-repeat center center;
+    background-size: cover;
   }
 
   /* Testimonial */
   .testimonial-section .carousel-item{
     padding:11rem 3.125rem; 
   }
-
 }
 
 @media (max-width:330px){
