@@ -33,8 +33,8 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       }, step);
   }
-  counter("count1", 0, 1287, 10000);
-  counter("count2", 0, 5786, 10000);
-  counter("count3", 0, 1440, 10000);
-  counter("count4", 0, 7110, 10000);
+  counter("count1", 0, 1287, 5000);
+  counter("count2", 0, 5786, 5000);
+  counter("count3", 0, 1440, 5000);
+  counter("count4", 0, 7110, 5000);
 });
