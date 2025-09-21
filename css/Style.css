@@ -112,7 +112,7 @@ h5{
 }
 p{
   font-size:1rem;
-  color:var(--text-color);
+  color: (#cfd3d7);
   font-weight: 400;
   line-height: 1.75rem;
   letter-spacing: 0.0625rem;
@@ -128,13 +128,13 @@ p{
   -o-transition:all 0.4s ease-out 0s;
   -ms-transition:all 0.4s ease-out 0s;
   transition:all 0.4s ease-out 0s;
-  background-color:var(--primary-color);
-  border:0.1875rem solid var(--primary-color);
-  color:var(--text-white);
+  background-color: (#00c604);
+  border:0.1875rem solid (#00c604);
+  color: (#fff);
 }
 .main-btn:hover{
   background-color: transparent;
-  color:var(--text-primary);
+  color: (#cfd3d7);
 }
 
 .wrapper{
@@ -172,7 +172,7 @@ p{
   font-size:1rem;
   font-weight: 600;
   text-transform: capitalize;
-  color:var(--text-color);
+  color: (#cfd3d7);
   letter-spacing: 0.0625rem;
 }
 .navigation-wrap .main-btn{
@@ -187,7 +187,7 @@ p{
   top:0;
   left:0;
   width:100%;
-  background:var(--black-color, black);
+  background: (#0e1317);
   box-shadow: 0 0.125rem 1.75rem 0 rgba(0,0,0,0.09);
   transition: all 0.15s ease-in-out 0s;
 }
@@ -196,7 +196,7 @@ p{
 .top-banner{
   width:100%;
   height:100%;
-  background-image: url("./images/bg/bg-1.jpg") no-repeat center;
+  background-image: url('./images/bg/bg-1.jpg') no-repeat center;
   background-size: cover;
   padding:14.875rem 0 5.375rem;
 }
@@ -207,21 +207,21 @@ p{
   padding:2.5rem 0;
 }
 .counter-section h2{
-  color:var(--text-primary);
+  color: (#00c604);
 }
 .counter-section p{
-  color:var(--text-white);
+  color: (#fff);
   text-transform: uppercase;
   margin-bottom:0;
 }
 
 /*5 About Section */
 .about-section{
-  background-color:var(--secondry-color);
+  background-color: (#151b20);
 }
 .about-section ul li{
   font-size:1rem;
-  color:var(--text-color);
+  color: (#cfd3d7);
   line-height: 2rem;
   position:relative;
   margin-left: 1.875rem;
@@ -230,7 +230,7 @@ p{
 .about-section ul li::before{
   position:absolute;
   left:-2.1875rem;
-  color:var(--text-primary);
+  color: (#00c604);
   font-size:1.25rem;
   font-family: "Font Awesome 5 Free";
   content:"\f00c";
@@ -242,7 +242,7 @@ p{
 .story-section{
   width:100%;
   height: 28.125rem;
-  background-image: url("./images/bg/bg-2.jpg") no-repeat center;
+  background-image: url('./images/bg/bg-2.jpg') no-repeat center;
   background-size:cover;
   padding-top:6.25rem;
   text-align: center;
@@ -255,7 +255,7 @@ p{
 .explore-food .card{
   background-color: transparent;
   border-radius: 0.9375rem;
-  border:0.125rem dashed var(--primary-color);
+  border:0.125rem dashed (#00c604);
 }
 .explore-food .card img{
   border-radius: 0.9375rem 0.975rem 0 0;
@@ -265,18 +265,18 @@ p{
   display: block;
   font-size: 1.5rem;
   font-weight: 700;
-  color:var(--text-primary);
+  color: (#00c604);
   padding-bottom:1rem;
-  border-bottom:0.0625rem solid var(--primary-color);
+  border-bottom:0.0625rem solid (#00c604);
 }
 .explore-food .card span del{
-  color:var(--text-gray);
+  color: (#999);
   margin-left:0.5rem;
 }
 
 /* 8 testimonial-section */
 .testimonial-section{
-  background-image: url("./images/bg/bg-4.jpg") no-repeat center top;
+  background-image: url('./images/bg/bg-4.jpg') no-repeat center top;
   background-size:cover;
 
 }
@@ -291,7 +291,7 @@ p{
   max-width: 5rem;
   border-radius: 50%;
   padding:0.3125rem;
-  border:0.125rem solid var(--primary-color);
+  border:0.125rem solid (#00c604);
 }
 .testimonial-section .carousel-item .carousel-caption p{
   font-size:1.3125rem;
@@ -305,51 +305,51 @@ p{
   width:0.9375rem;
   height:0.9375rem;
   border-radius: 50%;
-  background-color: var(--primary-color);
+  background-color: (#00c604);
   margin-top:10px;
 }
 
 /* 9 Team section */
 .team{
-  background-color:var(--secondry-color);
+  background-color: (#151b20);
 }
 .team .card{
   background-color: (#000000);
   border-radius: 0.625rem;
-  border:0.25rem solid var(--primary-color);
+  border:0.25rem solid (#00c604);
   text-align: center;
 }
 .team .card img{
   border-radius: 0.625rem 0.625rem 0 0;
 }
 .team h4{
-  color:var(--text-primary);
+  color: (#00c604);
   text-transform: uppercase;
 }
 .team h6,
 .team p{
-  color:var(--text-white);
+  color: (#fff);
 }
 .social-icon i{
   font-size:1.125rem;
   transition:0.3s all ease;
   margin:0.3125rem;
-  background-color:var(--primary-color);
-  color:var(--text-white);
+  background-color: (#00c604);
+  color: (#fff);
   border-radius: 50%;
   width:2.1875rem;
   height:2.1875rem;
   line-height: 2.1875rem;
 }
 .social-icon i:hover{
-  background-color: var(--white-color);
-  color:var(--text-primary);
+  background-color: (#fff);
+  color: (#00c604);
 }
 
 /* 10 Book Food */
 .book-food{
   width:100%;
-  background-image: url("./images/bg/bg-3.jpg") no-repeat center;
+  background-image: url('./images/bg/bg-3.jpg') no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   background-position: 0 4.4945rem;
@@ -357,12 +357,12 @@ p{
   overflow: hidden;
 }
 .book-food h2{
-  color:var(--text-primary);
+  color: (#00c604);
 }
 
 .download-app{
   width:100%;
-  background-image: url("./images/bg/bg-5.jpg") no-repeat center;
+  background-image: url('./images/bg/bg-5.jpg') no-repeat center;
   background-size: cover;
 }
 
@@ -372,18 +372,11 @@ p{
 }
 .footer .footer-link{
   font-size:1rem;
-  color:var(--text-white);
+  color: (#fff);
   padding:0 1.875rem;
 }
 .footer a{
   font-size:1.5rem;
-  color:var(--text-white);
+  color: (#fff);
   padding:0 0.4rem;
-
 }
-
-
-
-
-
-
