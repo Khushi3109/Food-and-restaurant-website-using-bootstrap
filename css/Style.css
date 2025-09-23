@@ -376,15 +376,23 @@ p{
   background-size: cover;
 }
 
-.footer a {
-  color: #00acee;       /* LinkedIn blue jaisa */
+.developed-by {
+  background-color: #000;   /* Black background */
+  display: inline-block;    /* Text ke around box */
+  padding: 8px 15px;        /* Thoda spacing */
+  border-radius: 6px;       /* Rounded edges */
+  margin-top: 10px;         /* Footer se gap */
+}
+
+.khushi-link {
+  color: #00a0dc;           /* LinkedIn blue */
+  font-weight: bold;        /* Bold text */
   text-decoration: none;
-  font-weight: bold;
-  font-family: sans-serif;
+  font-family: 'Poppins', sans-serif; /* Modern sans-serif font */
   transition: 0.3s;
 }
 
-.footer a:hover {
-  color: #ffffff;
+.khushi-link:hover {
+  color: #fff;              /* Hover me white */
   text-decoration: underline;
 }
