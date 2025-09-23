@@ -378,7 +378,7 @@ p{
 
 #footer {
   position: relative;
-  background: url('./images/bg/bg-5.jpg') no-repeat center center;
+  background-image: url('./images/bg/bg-5.jpg') no-repeat center center;
   background-size: cover;
   color: #fff;
 }
