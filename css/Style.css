@@ -393,21 +393,14 @@ p{
 
 /* ===== Footer Developer Credit ===== */
 .developed-by {
-  background-color: #000;   /* Black background */
-  color: #fff;              /* White text */
-  display: inline-block;    /* Background only around text */
-  padding: 6px 12px;        /* Spacing */
-  border-radius: 6px;       /* Rounded edges */
-  font-size: 14px;
+  background: #000;       /* black background */
+  padding: 10px;
+  margin-top: 10px;
 }
 
 .developed-by a {
-  color: #00a0dc;           /* LinkedIn Blue */
+  color: #00a0dc;         /* LinkedIn blue */
+  font-weight: bold;      /* bold text */
   text-decoration: none;
-  font-weight: bold;
-}
-
-.developed-by a:hover {
-  color: #fff;              /* On hover white */
-  text-decoration: underline;
+  font-family: Arial, sans-serif;
 }
