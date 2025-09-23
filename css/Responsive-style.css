@@ -6,6 +6,17 @@
   padding: 1rem;
 }
 
+/* Make collapsed menu visible and clickable on mobile */
+.navigation-wrap .navbar-collapse.show {
+    display: block !important;   /* menu visible ho */
+    z-index: 9999;               /* upar dikhai de */
+}
+
+.navigation-wrap .nav-item {
+    position: relative; 
+    z-index: 9999;               /* links clickable ho */
+}
+
 .navigation-wrap .nav-item {
   width: 100%;
   margin: 0.5rem 0;
