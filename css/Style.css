@@ -269,15 +269,15 @@ p{
   padding-bottom:1rem;
   border-bottom:0.0625rem solid var(--primary-color);
 }
-/* Discounted price - normal weight */
-.explore-food .card span {
+/* Discounted price */
+.explore-food .card span del {
   color: #ccc;        /* medium-light gray for contrast on dark bg */
   font-weight: 400;
   font-size: 1.2rem;
 }
 
 /* Original price - bold + line-through */
-.explore-food .card span del {
+.explore-food .card span {
   color: #ccc;        /* same color */
   font-weight: 700;   /* bold */
   text-decoration: line-through;
