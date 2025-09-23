@@ -377,28 +377,45 @@ p{
 }
 
 #footer {
-  background-color: #000;  /* Black background */
-  color: #fff;             /* Default text color white */
+  position: relative;
+  background: url('./images/footer-bg.jpg') no-repeat center center;
+  background-size: cover;
+  color: #fff;
+}
+
+.footer-overlay {
+  background-color: rgba(0,0,0,0.7); /* semi-transparent black overlay */
   padding: 30px 0;
 }
-
+
+.footer-link {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.footer-text {
+  color: #fff;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
 .developed-by {
-  background-color: #000;   /* Black background */
-  display: inline-block;    /* Text ke around box */
-  padding: 8px 15px;        /* Thoda spacing */
-  border-radius: 6px;       /* Rounded edges */
-  margin-top: 10px;         /* Footer se gap */
+  margin-top: 10px;
 }
 
 .khushi-link {
-  color: #00a0dc;           /* LinkedIn blue */
-  font-weight: bold;        /* Bold text */
+  color: #00a0dc;
+  font-weight: bold;
   text-decoration: none;
-  font-family: 'Poppins', sans-serif; /* Modern sans-serif font */
-  transition: 0.3s;
+  font-family: 'Poppins', sans-serif;
 }
 
 .khushi-link:hover {
-  color: #fff;              /* Hover me white */
+  color: #fff;
   text-decoration: underline;
 }
