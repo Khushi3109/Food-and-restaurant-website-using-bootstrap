@@ -269,9 +269,11 @@ p{
   padding-bottom:1rem;
   border-bottom:0.0625rem solid var(--primary-color);
 }
-.explore-food .card span del{
-  color:var(--text-gray);
-  margin-left:0.5rem;
+.explore-food .card span del {
+  color: #888; /* medium gray */
+  font-weight: 600;
+  margin-left: 0.5rem;
+  text-decoration: line-through;
 }
 
 /* 8 testimonial-section */
