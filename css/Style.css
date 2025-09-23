@@ -378,7 +378,7 @@ p{
 
 #footer {
   position: relative;
-  background: url('./images/footer-bg.jpg') no-repeat center center;
+  background: url('./images/bg/bg-5.jpg') no-repeat center center;
   background-size: cover;
   color: #fff;
 }
@@ -409,7 +409,7 @@ p{
 }
 
 .khushi-link {
-  color: #00a0dc;
+  color: #00c604; /* primary color for accent */
   font-weight: bold;
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
