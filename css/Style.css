@@ -272,7 +272,7 @@ p{
 /* Discounted price */
 .explore-food .card span {
   color: #ccc;        /* medium-light gray for contrast on dark bg */
-  font-weight: 400;
+  font-weight: 700;
   font-size: 1.2rem;
 }
 
