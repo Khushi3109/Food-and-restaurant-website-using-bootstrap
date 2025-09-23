@@ -269,22 +269,19 @@ p{
   padding-bottom:1rem;
   border-bottom:0.0625rem solid var(--primary-color);
 }
-/* Both prices same color */
+/* Discounted price - normal weight */
 .explore-food .card span {
+  color: #ccc;        /* medium-light gray for contrast on dark bg */
+  font-weight: 400;
   font-size: 1.2rem;
-  color: #222;          /* same color for both */
 }
 
 /* Original price - bold + line-through */
 .explore-food .card span del {
-  font-weight: 700;     /* bold */
+  color: #ccc;        /* same color */
+  font-weight: 700;   /* bold */
   text-decoration: line-through;
   margin-left: 0.5rem;
-}
-
-/* Discounted price - normal weight */
-.explore-food .card span {
-  font-weight: 400;     /* normal */
 }
 
 /* 8 testimonial-section */
