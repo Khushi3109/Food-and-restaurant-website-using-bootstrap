@@ -390,3 +390,24 @@ p{
   color:var(--text-white);
   padding:0 0.4rem;
 }
+
+/* ===== Footer Developer Credit ===== */
+.developed-by {
+  background-color: #000;   /* Black background */
+  color: #fff;              /* White text */
+  display: inline-block;    /* Background only around text */
+  padding: 6px 12px;        /* Spacing */
+  border-radius: 6px;       /* Rounded edges */
+  font-size: 14px;
+}
+
+.developed-by a {
+  color: #00a0dc;           /* LinkedIn Blue */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.developed-by a:hover {
+  color: #fff;              /* On hover white */
+  text-decoration: underline;
+}
