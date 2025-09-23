@@ -273,7 +273,7 @@ p{
 .explore-food .card span {
   color: #ccc;        /* medium-light gray for contrast on dark bg */
   font-weight: 700;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 /* Original price - bold + line-through */
@@ -281,7 +281,7 @@ p{
   color: #ccc;        /* same color */
   font-weight: 400;   /* bold */
   text-decoration: line-through;
-  margin-left: 0.5rem;
+  margin-left: 1.2rem;
 }
 
 /* 8 testimonial-section */
