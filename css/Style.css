@@ -377,30 +377,15 @@ p{
 }
 
 /* 11 Footer Section */
-.footer{
-  background: var(--black-color);
-}
-.footer .footer-link{
-  font-size:1rem;
-  color:var(--text-white);
-  padding:0 1.875rem;
-}
-.footer a{
-  font-size:1.5rem;
-  color:var(--text-white);
-  padding:0 0.4rem;
-}
-
-/* ===== Footer Developer Credit ===== */
-.developed-by {
-  background: #000;       /* black background */
-  padding: 10px;
-  margin-top: 10px;
-}
-
-.developed-by a {
-  color: #00a0dc;         /* LinkedIn blue */
-  font-weight: bold;      /* bold text */
+.footer a {
+  color: #00acee;       /* LinkedIn blue jaisa */
   text-decoration: none;
-  font-family: 'sans-serif';
+  font-weight: bold;
+  font-family: sans-serif;
+  transition: 0.3s;
+}
+
+.footer a:hover {
+  color: #ffffff;
+  text-decoration: underline;
 }
