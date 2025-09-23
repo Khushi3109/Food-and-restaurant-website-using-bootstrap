@@ -279,7 +279,7 @@ p{
 /* Original price - bold + line-through */
 .explore-food .card span del {
   color: #ccc;        /* same color */
-  font-weight: 700;   /* bold */
+  font-weight: 400;   /* bold */
   text-decoration: line-through;
   margin-left: 0.5rem;
 }
