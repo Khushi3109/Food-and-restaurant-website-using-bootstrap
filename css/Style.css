@@ -270,8 +270,8 @@ p{
   border-bottom:0.0625rem solid var(--primary-color);
 }
 .explore-food .card span del {
-  color: #555;       /* medium-dark gray, clearly visible */
-  font-weight: 600;  /* thoda bold */
+  color: #222;       /* dark gray / almost black */
+  font-weight: 600;
   margin-left: 0.5rem;
   text-decoration: line-through;
 }
