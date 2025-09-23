@@ -248,7 +248,7 @@ p{
   text-align: center;
 }
 
-/* Explore Food Section */
+/* Explore Foods Section */
 .explore-food{
   background-color: var(--secondry-color);
 }
@@ -261,7 +261,7 @@ p{
   border-radius: 0.9375rem 0.975rem 0 0;
   object-fit: cover;
 }
-.explore-food .card span{
+.explore-food .card h3 {
   display: block;
   font-size: 1.5rem;
   font-weight: 700;
